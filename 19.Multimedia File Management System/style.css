@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #aaa;
+}
+
+h1 {
+    text-align: center;
+    color: #1f4e79;
+    font-size: 26px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+}
+
+h2 {
+    color: #1f4e79;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #1f4e79;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.message {
+    color: green;
+    font-weight: bold;
+}
+
+.files {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f1f3f5;
+}
