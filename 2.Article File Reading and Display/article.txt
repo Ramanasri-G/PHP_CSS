@@ -1,0 +1,7 @@
+The Importance of Web Development
+Web development plays an important role in the modern digital world.
+It allows businesses and individuals to create websites and web applications.
+HTML is used to create the structure of a web page.
+CSS is used to design and style web pages.
+PHP is used to create dynamic and interactive web applications.
+Learning web development helps students build useful real-world applications.
