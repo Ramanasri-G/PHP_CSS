@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #edf3f4;
+    color: #263746;
+}
+
+.login-box {
+    width: 380px;
+    margin: 100px auto;
+    padding: 35px;
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px #c5ced2;
+}
+
+.login-box h1 {
+    color: #245b62;
+    letter-spacing: 3px;
+}
+
+.login-box p {
+    color: #718087;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccd6da;
+    border-radius: 7px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #245b62;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #17454b;
+}
+
+.error {
+    margin-top: 15px;
+    padding: 10px;
+    color: #a33a3a;
+    background: #f8eaea;
+    border-radius: 6px;
+}
+
+.dashboard {
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px #c5ced2;
+}
+
+.dashboard h1 {
+    color: #245b62;
+}
+
+.card {
+    margin: 25px 0;
+    padding: 20px;
+    background: #e8f3f2;
+    border-radius: 10px;
+}
+
+.dashboard a {
+    color: #245b62;
+    font-weight: bold;
+    text-decoration: none;
+}
