@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #202b38;
+}
+
+.header {
+    background: #172b3a;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.header h1 {
+    letter-spacing: 4px;
+    margin: 0;
+    color: #d6b56d;
+}
+
+.header p {
+    color: #d9d9d9;
+}
+
+.container {
+    width: 600px;
+    margin: 45px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px #c8c4bc;
+}
+
+h2, h3 {
+    color: #172b3a;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 18px;
+    background: #172b3a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d6b56d;
+    color: #172b3a;
+}
+
+.message {
+    padding: 12px;
+    margin-top: 15px;
+    background: #f6f1df;
+    color: #70591f;
+    border-radius: 6px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top a {
+    color: #a33a3a;
+    text-decoration: none;
+}
+
+.file {
+    display: flex;
+    padding: 14px;
+    margin: 10px 0;
+    background: #f7f7f5;
+    border-left: 4px solid #d6b56d;
+    border-radius: 5px;
+}
+
+.file span {
+    flex: 1;
+    margin-left: 8px;
+}
+
+.file a {
+    color: #172b3a;
+    font-weight: bold;
+    text-decoration: none;
+}
