@@ -1,0 +1,7 @@
+EVENT INFORMATION
+============================
+Event ID : EVT002
+Event    : PHP Programming Seminar
+Date     : 2026-09-15
+Time     : 02:00 PM
+Venue    : Seminar Hall

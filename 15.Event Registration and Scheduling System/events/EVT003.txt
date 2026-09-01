@@ -1,0 +1,7 @@
+EVENT INFORMATION
+============================
+Event ID : EVT003
+Event    : Project Presentation
+Date     : 2026-09-20
+Time     : 11:00 AM
+Venue    : Auditorium
