@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    background: #e3f2fd;
+}
+
+.container {
+    width: 400px;
+    margin: 60px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+h2 {
+    text-align: center;
+    color: #1565c0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #1565c0;
+    color: white;
+    border: none;
+}
+
+.message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
