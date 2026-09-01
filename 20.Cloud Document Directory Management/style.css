@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eee9f7;
+    margin: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #c8c0d8;
+}
+
+h1 {
+    text-align: center;
+    color: #33245f;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #766b8a;
+}
+
+h2 {
+    color: #33245f;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    color: #40365a;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 1px solid #c9c1d8;
+    border-radius: 7px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #5b4b8a;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #46366f;
+}
+
+.message {
+    text-align: center;
+    color: #36705a;
+    font-weight: bold;
+}
+
+.documents {
+    margin-top: 15px;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    margin: 8px 0;
+    background: #f6f3fa;
+    border-radius: 7px;
+}
+
+.file span {
+    flex: 1;
+    color: #40365a;
+}
+
+.file a {
+    text-decoration: none;
+    color: #5b4b8a;
+    font-weight: bold;
+}
+
+.file .delete {
+    color: #b34b5a;
+}
