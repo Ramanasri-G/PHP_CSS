@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>📚 Assignment Submission</h1>
+
+        <p class="subtitle">
+            Submit your assignment securely
+        </p>
+
+        <form action="process.php" method="POST" enctype="multipart/form-data">
+
+            <label>Student Name</label>
+            <input
+                type="text"
+                name="student_name"
+                placeholder="Enter student name"
+                required
+            >
+
+            <label>Register Number</label>
+            <input
+                type="text"
+                name="register_number"
+                placeholder="Enter register number"
+                required
+            >
+
+            <label>Department</label>
+
+            <select name="department" required>
+
+                <option value="">-- Select Department --</option>
+
+                <option value="BCA">BCA</option>
+
+                <option value="BScCS">B.Sc Computer Science</option>
+
+                <option value="BCom">B.Com</option>
+
+                <option value="BA">B.A</option>
+
+            </select>
+
+            <label>Upload Assignment</label>
+
+            <input
+                type="file"
+                name="assignment"
+                accept=".pdf,.doc,.docx,.txt"
+                required
+            >
+
+            <p class="note">
+                Allowed files: PDF, DOC, DOCX, TXT
+                <br>
+                Maximum size: 5 MB
+            </p>
+
+            <button type="submit">
+                Upload Assignment
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
