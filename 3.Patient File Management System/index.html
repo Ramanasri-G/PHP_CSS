@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient File Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>🏥 Patient File Management System</h1>
+
+        <p class="subtitle">
+            Store and retrieve patient records by department
+        </p>
+
+        <form action="process.php" method="POST">
+
+            <label>Operation</label>
+
+            <select name="operation" required>
+                <option value="">-- Select Operation --</option>
+                <option value="add">Add Patient Record</option>
+                <option value="search">Search Patient Record</option>
+            </select>
+
+
+            <label>Patient ID</label>
+
+            <input
+                type="text"
+                name="patient_id"
+                placeholder="Example: P101"
+                required
+            >
+
+
+            <label>Patient Name</label>
+
+            <input
+                type="text"
+                name="patient_name"
+                placeholder="Enter patient name"
+            >
+
+
+            <label>Age</label>
+
+            <input
+                type="number"
+                name="age"
+                placeholder="Enter age"
+                min="1"
+                max="120"
+            >
+
+
+            <label>Gender</label>
+
+            <select name="gender">
+                <option value="">-- Select Gender --</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+
+            <label>Department</label>
+
+            <select name="department" required>
+                <option value="">-- Select Department --</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Neurology">Neurology</option>
+                <option value="Orthopedics">Orthopedics</option>
+                <option value="General Medicine">General Medicine</option>
+            </select>
+
+
+            <label>Problem / Diagnosis</label>
+
+            <input
+                type="text"
+                name="diagnosis"
+                placeholder="Enter problem or diagnosis"
+            >
+
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
