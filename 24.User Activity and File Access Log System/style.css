@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef3f7;
+    color: #263746;
+}
+
+.header {
+    background: #263746;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    margin: 0;
+    letter-spacing: 4px;
+    color: #8ed1c7;
+}
+
+.header p {
+    color: #d5e1e8;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px #cbd3d8;
+}
+
+h2, h3 {
+    color: #263746;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccd5db;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #367c78;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #285f5c;
+}
+
+.message {
+    padding: 12px;
+    background: #e5f3f1;
+    color: #28615d;
+    border-radius: 6px;
+}
+
+.files a {
+    display: block;
+    padding: 12px;
+    margin: 8px 0;
+    background: #f3f6f8;
+    color: #367c78;
+    text-decoration: none;
+    border-left: 4px solid #8ed1c7;
+}
+
+.logs {
+    background: #f5f7f8;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-size: 13px;
+    color: #52616b;
+}
