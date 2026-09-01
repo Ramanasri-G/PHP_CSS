@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #e3f2fd,
+        #ede7f6,
+        #fce4ec
+    );
+
+    color: #263238;
+}
+
+
+/* =========================
+   LOGIN PAGE
+   ========================= */
+
+.login-box {
+    width: 850px;
+    max-width: 94%;
+
+    margin: 60px auto;
+
+    display: grid;
+
+    grid-template-columns: 45% 55%;
+
+    background: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Login Header */
+
+.login-header {
+    padding: 50px 35px;
+
+    color: white;
+
+    background: linear-gradient(
+        135deg,
+        #4527a0,
+        #6a1b9a,
+        #ad1457
+    );
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
+}
+
+.lock {
+    font-size: 55px;
+
+    margin-bottom: 20px;
+}
+
+.login-header h1 {
+    font-size: 32px;
+
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    opacity: 0.9;
+}
+
+
+/* Login Form */
+
+.login-form {
+    padding: 45px;
+}
+
+.login-form h2 {
+    color: #4527a0;
+
+    font-size: 28px;
+
+    margin-bottom: 8px;
+}
+
+.description {
+    color: #78909c;
+
+    margin-bottom: 28px;
+}
+
+
+/* Labels */
+
+.login-form label {
+    display: block;
+
+    font-weight: bold;
+
+    color: #37474f;
+
+    margin-top: 18px;
+
+    margin-bottom: 8px;
+}
+
+
+/* Input */
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #cfd8dc;
+
+    border-radius: 9px;
+
+    font-size: 15px;
+
+    background: #fafafa;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    outline: none;
+
+    border-color: #7e57c2;
+
+    background: white;
+
+    box-shadow:
+        0 0 0 3px rgba(126, 87, 194, 0.12);
+}
+
+
+/* Remember Me */
+
+.remember {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 18px;
+}
+
+.remember input {
+    width: 16px;
+    height: 16px;
+}
+
+.remember label {
+    margin: 0;
+
+    font-weight: normal;
+
+    color: #607d8b;
+
+    cursor: pointer;
+}
+
+
+/* Button */
+
+.login-form button {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background: linear-gradient(
+        135deg,
+        #4527a0,
+        #8e24aa
+    );
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.login-form button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(69, 39, 160, 0.3);
+}
+
+
+/* Demo Box */
+
+.demo-box {
+    margin-top: 25px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    background: #f3e5f5;
+
+    color: #6a1b9a;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   DASHBOARD
+   ========================= */
+
+.dashboard {
+    width: 1050px;
+    max-width: 94%;
+
+    margin: 45px auto;
+
+    background: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Dashboard Header */
+
+.dashboard-header {
+    padding: 35px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    color: white;
+
+    background: linear-gradient(
+        135deg,
+        #4527a0,
+        #6a1b9a,
+        #ad1457
+    );
+}
+
+.dashboard-label {
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    opacity: 0.8;
+}
+
+.dashboard-header h1 {
+    font-size: 30px;
+
+    margin: 8px 0;
+}
+
+.dashboard-header p {
+    opacity: 0.9;
+}
+
+
+/* Logout */
+
+.logout {
+    padding: 12px 22px;
+
+    border-radius: 8px;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border: 1px solid rgba(255,255,255,0.5);
+
+    background: rgba(255,255,255,0.15);
+}
+
+.logout:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+
+/* Content */
+
+.content {
+    padding: 35px;
+}
+
+
+/* Cards */
+
+.card-container {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.card {
+    padding: 25px;
+
+    border-radius: 14px;
+
+    border: 1px solid #eeeeee;
+
+    background: #fafafa;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card-icon {
+    font-size: 38px;
+
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #4527a0;
+
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #607d8b;
+
+    line-height: 1.6;
+
+    margin-bottom: 15px;
+}
+
+.card strong {
+    color: #37474f;
+}
+
+
+/* Active Status */
+
+.active {
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    background: #e8f5e9;
+
+    color: #2e7d32;
+
+    font-size: 12px;
+
+    font-weight: bold;
+}
+
+
+/* Comparison */
+
+.comparison {
+    margin-top: 30px;
+
+    padding: 25px;
+
+    border-radius: 14px;
+
+    background: linear-gradient(
+        135deg,
+        #f3e5f5,
+        #e3f2fd
+    );
+}
+
+.comparison h2 {
+    color: #4527a0;
+
+    margin-bottom: 18px;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background: white;
+}
+
+th {
+    padding: 13px;
+
+    text-align: left;
+
+    color: white;
+
+    background: #4527a0;
+}
+
+td {
+    padding: 13px;
+
+    border-bottom: 1px solid #eeeeee;
+
+    color: #546e7a;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+
+    text-align: center;
+
+    background: #263238;
+
+    color: white;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+/* Responsive */
+
+@media (max-width: 750px) {
+
+    .login-box {
+        grid-template-columns: 1fr;
+
+        margin: 20px auto;
+    }
+
+    .login-header {
+        padding: 35px 25px;
+    }
+
+    .login-form {
+        padding: 30px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-header {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+}
