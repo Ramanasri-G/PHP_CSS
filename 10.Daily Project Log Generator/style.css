@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #3949ab, #6a1b9a);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.header p {
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+form {
+    padding: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+
+label:first-child {
+    margin-top: 0;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #5e35b1;
+    box-shadow: 0 0 5px rgba(94, 53, 177, 0.25);
+}
+
+textarea {
+    height: 110px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #3949ab, #6a1b9a);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.success {
+    margin: 20px 30px 0;
+    padding: 13px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-left: 5px solid #43a047;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.log-section {
+    margin: 0 30px 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.log-section h2 {
+    color: #3949ab;
+    margin-bottom: 15px;
+}
+
+pre {
+    white-space: pre-wrap;
+    line-height: 1.7;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    .success {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .log-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
