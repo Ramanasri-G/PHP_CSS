@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background: #e8f5e9;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
+
+h3 {
+    color: #333;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 8px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.message {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
