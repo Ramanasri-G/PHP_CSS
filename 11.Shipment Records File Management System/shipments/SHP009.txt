@@ -1,0 +1,10 @@
+SHIPMENT RECORD
+==============================
+Shipment ID : SHP009
+Customer    : sri
+Product     : potato
+Destination : coimbatore
+Status      : In Transit
+Date        : 01-09-2026
+Time        : 04:19 PM
+==============================

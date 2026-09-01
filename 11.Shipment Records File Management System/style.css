@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            135deg,
+            #e0f7fa,
+            #ede7f6,
+            #fce4ec
+        );
+
+    padding: 40px 20px;
+
+    color: #263238;
+}
+
+
+/* Main Container */
+
+.main-container {
+    max-width: 1050px;
+    margin: auto;
+
+    background: rgba(255, 255, 255, 0.96);
+
+    border-radius: 22px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.15);
+
+    overflow: hidden;
+}
+
+
+/* Header */
+
+.header {
+    text-align: center;
+
+    padding: 35px 20px;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1565c0,
+            #6a1b9a,
+            #ad1457
+        );
+}
+
+.icon {
+    font-size: 48px;
+
+    margin-bottom: 8px;
+}
+
+.header h1 {
+    font-size: 32px;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 6px;
+}
+
+.header p {
+    font-size: 16px;
+
+    opacity: 0.9;
+}
+
+
+/* Success Message */
+
+.success {
+    margin: 25px 35px 0;
+
+    padding: 15px 18px;
+
+    border-radius: 10px;
+
+    background: #e8f5e9;
+
+    color: #2e7d32;
+
+    border-left: 5px solid #43a047;
+
+    font-weight: 600;
+}
+
+
+/* Form Section */
+
+.form-container {
+    padding: 35px;
+}
+
+.form-container h2,
+.records-container h2 {
+    color: #4527a0;
+
+    font-size: 24px;
+
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #78909c;
+
+    margin-bottom: 25px;
+}
+
+
+/* Form Row */
+
+.form-row {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+}
+
+
+/* Form Group */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+
+    font-weight: 600;
+
+    color: #37474f;
+
+    margin-bottom: 8px;
+}
+
+
+/* Inputs */
+
+input,
+select {
+    width: 100%;
+
+    padding: 14px 15px;
+
+    border: 1px solid #cfd8dc;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    background: #fafafa;
+
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+
+    border-color: #7e57c2;
+
+    background: white;
+
+    box-shadow:
+        0 0 0 3px rgba(126, 87, 194, 0.12);
+}
+
+
+/* Button */
+
+button {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(
+            135deg,
+            #3949ab,
+            #8e24aa
+        );
+
+    box-shadow:
+        0 6px 15px rgba(94, 53, 177, 0.25);
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 9px 20px rgba(94, 53, 177, 0.35);
+}
+
+
+/* Records Section */
+
+.records-container {
+    padding: 0 35px 35px;
+}
+
+.records-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px;
+
+    margin-bottom: 25px;
+
+    border-radius: 14px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ede7f6,
+            #e3f2fd
+        );
+}
+
+.records-header p {
+    color: #607d8b;
+
+    margin-top: 5px;
+}
+
+.folder-icon {
+    font-size: 38px;
+}
+
+
+/* Records Grid */
+
+.records-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 20px;
+}
+
+
+/* Record Card */
+
+.record-card {
+    border-radius: 15px;
+
+    padding: 20px;
+
+    background: white;
+
+    border: 1px solid #e0e0e0;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.record-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    color: #6a1b9a;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #eee;
+}
+
+pre {
+    white-space: pre-wrap;
+
+    font-family: Consolas, monospace;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+
+    color: #455a64;
+}
+
+
+/* Empty Section */
+
+.empty {
+    text-align: center;
+
+    padding: 45px 20px;
+
+    border: 2px dashed #d1c4e9;
+
+    border-radius: 15px;
+
+    background: #fafafa;
+}
+
+.empty-icon {
+    font-size: 45px;
+
+    margin-bottom: 10px;
+}
+
+.empty h3 {
+    color: #5e35b1;
+
+    margin-bottom: 8px;
+}
+
+.empty p {
+    color: #78909c;
+}
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+
+    padding: 20px;
+
+    background: #263238;
+
+    color: white;
+}
+
+.footer p {
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+.footer span {
+    font-size: 13px;
+
+    color: #b0bec5;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .form-container,
+    .records-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+
+        gap: 0;
+    }
+
+    .records-grid {
+        grid-template-columns: 1fr;
+    }
+}
